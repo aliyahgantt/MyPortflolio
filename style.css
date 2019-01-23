@@ -1,18 +1,101 @@
+/* -------------------- Main Components -------------------- */
+
+/* HTML elements */
+
 body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  cursor: url(images/pointer.png), auto;
 }
 
 div {
 
 }
 
+hr {
+  border: dotted #FFEDDF 6px;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  width: 4%;
+  margin: 100px auto;
+
+}
+
+/* Class elements */
+
+.top-container {
+  background-color: #CF5A00;
+  position: relative;
+  margin: .80rem;
+  padding-bottom: .60rem;
+}
+
+.middle-container {
+margin: 100px 0;
+}
+
+.bottom-container {
+background-color: #EEEEEE;
+padding: 50px 0 20px;
+}
+
+.contact-me {
+padding: 2rem;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #D7D7D7;
+  font-size: 0.75rem;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.side-border {
+
+  padding: 1rem;
+  border-width: 5px;
+  border-style: solid;
+  border-image:
+    linear-gradient(
+      to bottom,
+      #CF5A00,
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+/* ------------------------ Text Components --------------------- */
+
+/* HTML elements */
+
+a {
+  color: #C8C8C8;
+  font-family: 'Montserrat', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+    cursor: url(images/pointer-hover.png), auto;
+    color: #FFFFFF;
+}
+
 h1 {
   font-size: 5.625rem;
-  margin-top: 0;
-  font-family: 'Sacramento', cursive;
-  color: #B8B5A5;
+  margin-top: 0px;
+  font-family: 'Over the rainbow', cursive;
+  color: #FFFFFF;
+  margin-bottom: -5px;
 }
 
 h2 {
@@ -23,11 +106,55 @@ h2 {
 
 h3 {
   font-family: 'Montserrat', sans-serif;
+  color: #CF5A00;
 }
 
-.top-container {
-  background-color: #ECE7D2;
-  position: relative;
-  margin: .80rem;
-  padding-bottom: .60rem;
+p {
+  line-height: 2;
+}
+
+/* Class elements */
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+
+.tag-line {
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-top: -2em;
+}
+
+/* --------------------- Image Components ------------------------ */
+
+.btn {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid #000000;
+  border-radius: 12px;
+  padding: 5px;
+  margin: 15px;
+}
+
+.btn:hover {
+  background-color: #EEEEEE;
+}
+
+
+
+.web-img {
+  width: -25%;
+  float: left;
+  margin-right: 30px;
+}
+
+
+.ux-img {
+  width: -25%;
+  float: right;
+  margin-left: 30px;
 }
