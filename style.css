@@ -5,8 +5,9 @@
 body {
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: 'Scope One', serif;
   cursor: url(images/pointer.png), auto;
+  font-size: 1.3rem;
 }
 
 div {
@@ -93,19 +94,19 @@ a:hover {
 h1 {
   font-size: 5.625rem;
   margin-top: 0px;
-  font-family: 'Over the rainbow', cursive;
+  font-family: 'Dawning of a New Day', cursive;
   color: #FFFFFF;
   margin-bottom: -5px;
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Special Elite', sans-serif;
   font-size: 2.5rem;
   color: #B8B5A5;
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Special Elite', sans-serif;
   color: #CF5A00;
 }
 
@@ -124,7 +125,7 @@ p {
 .tag-line {
   color: #FFFFFF;
   font-weight: bold;
-  margin-top: -2em;
+  margin-top: -.5em;
 }
 
 /* --------------------- Image Components ------------------------ */
@@ -144,17 +145,19 @@ p {
   background-color: #EEEEEE;
 }
 
-
-
-.web-img {
-  width: -25%;
-  float: left;
-  margin-right: 30px;
+.profile-img {
+  width: 20rem;
+  height: 20rem;
 }
-
 
 .ux-img {
   width: -25%;
   float: right;
   margin-left: 30px;
+}
+
+.web-img {
+  width: -25%;
+  float: left;
+  margin-right: 30px;
 }
